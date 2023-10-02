@@ -4,20 +4,21 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'reac
 // for running project on Expo Go
 // command prompt -> "cd FirstProject" -> "npm start"
 
-//git add *
-//git commit -m "Changed app file"
-//git push origin master
+// for github updating 
+  //git add *
+  //git commit -m "Changed app file"
+  //git push origin master
 
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    /*start whole view*/ <View style={styles.container}>
       <Text style={styles.title}>HoopSesh</Text>
 
       <TouchableOpacity style={styles.buttonContainer}>
         <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>
-    </View>
+    </View> // end whole view
   );
 }
 
